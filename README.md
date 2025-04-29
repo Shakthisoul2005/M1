@@ -1,7 +1,7 @@
 
 # EX-01-Datatypes-Operators
 ## AIM:
-Write a C program to read 3 characters one by one and print the characters in a reverse order.
+Write a C program to read three values A, B, C, and print which one is largest or all are equal using an else-if conditional statement.
 
 ## ALGORITHM:
 1.	Declare three character variables to store the input characters.
@@ -10,8 +10,26 @@ Write a C program to read 3 characters one by one and print the characters in a 
 4.	End the program.
 
 ## PROGRAM:
-
+```
+#include<stdio.h>
+int main(){
+    int a,b,c;
+    scanf("%d %d %d",&a,&b,&c);
+    if (a>b && a>c)
+    printf("A is largest");
+    else if (b>a && b>c)
+    printf("B is largest");
+    else if(c>a && c>b)
+    printf("C is largest");
+    else if(a==b && a==c)
+    printf("A, B, C are equal");
+    else
+    printf("A,B,C are invalid");
+    
+}
+```
 ## OUTPUT:
+![Screenshot 2025-04-29 154604](https://github.com/user-attachments/assets/bede8aa1-d95c-4829-95b6-a35a4cd8a3dd)
 
 
 
@@ -35,8 +53,7 @@ Thus the program to read 3 characters one by one and print the characters in a r
 
 # EX-02- Conditional-Statements
 ## AIM:
-Write a C program to read A values and check whether A is positive number or not.
-
+Write a C program to calculate total, average and percentage of six subjects.
 # ALGORITHM:
 1.	Declare a variable to store the input value A.
 2.	Use the scanf function to read the value of A from the user.
@@ -46,9 +63,23 @@ Write a C program to read A values and check whether A is positive number or not
 6.End the program.
 
 # PROGRAM:
-
+```
+#include <stdio.h>
+int main(){
+    float a,b,c,d,e,f;
+    float tot,ave,per;
+    scanf("%f%f%f%f%f%f",&a,&b,&c,&d,&e,&f);
+    tot=a+b+c+d+e+f;
+    ave=tot/6;
+    per=ave/1;
+    printf("Total marks = %.2f\n",tot);
+    printf("Average marks = %.2f\n",ave);
+    printf("Percentage = %.2f\n",per);
+}
+```
 # OUTPUT:
 
+![Screenshot 2025-04-29 154754](https://github.com/user-attachments/assets/297db5ff-ad9b-41fa-b71b-7472cd9171c4)
 
 
 
@@ -68,8 +99,7 @@ Thus the program to read A values and check whether A is positive number or not 
 
 # EX-03- Operators-Expressions
 ## AIM:
-Write a program to find minimum between two fraction numbers using conditional operator or ternary operator.
-
+Write a C program to read two number and check whether the first number is equal to 40 or not and if equal to 40 then check whether the second number is equal to 100 or not using  nested if.
 ## ALGORITHM:
 1.	Declare variables to store the two fraction numbers and the result.
 2.	Use the printf function to prompt the user to enter the first fraction number (numerator and denominator separately).
@@ -80,9 +110,31 @@ Write a program to find minimum between two fraction numbers using conditional o
 7.	Print the minimum value.
 
 ## PROGRAM:
-
+```
+#include<stdio.h>
+int main(){
+    int a,b;
+    scanf("%d %d",&a,&b);
+   if (a==40 && b==100)
+    {
+    printf("The first number is equal to 40\n");
+      if (a==40)
+    printf("The second number is equal to 100\n");
+      else 
+    printf("The second number is not equal to 100\n"); 
+       else if(b==100)
+       printf("The second number is equal to 100\n");
+       else
+       printf("The second number is NOT equal to 100\n");
+    }
+   else
+   
+   printf("The first number is NOT equal to 40");
+}
+```
 ## OUTPUT:
 
+![Screenshot 2025-04-29 154918](https://github.com/user-attachments/assets/08f2ba23-1a20-402c-bf39-ddaa56d50972)
 
 
 
@@ -100,8 +152,7 @@ Thus the program to find minimum between two fraction numbers using conditional 
 # EX-04- Using Conditional Statements
 
 ## AIM:
-Write a C program to check whether the input value is equal to 1 using simple if statement
-
+Write a C program to calculate a bike’s average consumption to cover 10000km with 150.5 liter fuel.
 ## ALGORITHM:
 1.	Declare a variable to store the input value.
 2.	Use the scanf function to read the input value from the user.
@@ -111,9 +162,25 @@ Write a C program to check whether the input value is equal to 1 using simple if
 6.	End the program.
 
 ## PROGRAM:
+```
+#include <stdio.h>
+
+int main() {
+    float distance = 10000;  
+    float fuel = 150.5;  
+    float average_consumption;
+    average_consumption = (fuel / distance) * 100;
+
+   
+    printf("Average consumption(km/lt): %.2f liters per 100 km.\n", average_consumption);
+
+    return 0;
+}
+
 
 ## OUTPUT:
 
+![Screenshot 2025-04-29 155305](https://github.com/user-attachments/assets/76c2ea42-70b4-4ac6-ad3d-8d0ef0c415fb)
 
 
 
