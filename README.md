@@ -51,7 +51,7 @@ int main(){
 
 
 ## RESULT:
-Thus the program to read 3 characters one by one and print the characters in a reverse order has been executed successfully.
+Thus the program has been executed successfully.
 
 
 # EX-02- Conditional-Statements
@@ -95,7 +95,7 @@ int main(){
 
 
 # RESULT:
-Thus the program to read A values and check whether A is positive number or not has been executed successfully.
+Thus the program has been executed successfully.
  
  
  
@@ -148,7 +148,7 @@ int main(){
 
 
 ## RESULT:
-Thus the program to find minimum between two fraction numbers using conditional operator or ternary operator has been executed successfully.
+Thus the program has been executed successfully.
 
 
 
@@ -197,7 +197,7 @@ int main() {
 	
 
 ## RESULT:
-Thus the program to check whether the input value is equal to 1 using simple if statement has been executed successfully
+Thus the program has been executed successfully
 
 
 
@@ -229,5 +229,5 @@ int main(){
 ![Screenshot 2025-04-29 171034](https://github.com/user-attachments/assets/0e2add21-4b1d-478b-b51e-7326f85c92c9)
 
 ## RESULT:
-The program successfully takes three subject marks, calculates the total and percentage, and correctly determines the division based on predefined grading logic.
+The program has been executed successfully 
 
