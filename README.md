@@ -176,7 +176,7 @@ int main() {
 
     return 0;
 }
-
+```
 
 ## OUTPUT:
 
@@ -198,7 +198,7 @@ Thus the program to check whether the input value is equal to 1 using simple if 
 
 # EX-05- Calculating Total, Percentage, And Division Using Conditional Statements 
 ## AIM:
-To write a C program that reads marks of three subjects, calculates the total and percentage, and then determines the division (First, Second, Pass, or Fail) based on the percentage and minimum marks criteria.
+Write a C Program to check a number is even or odd using switch case.
 ## ALGORITHM:
 1.	Start
 2.	Declare integer variables m1, m2, m3 for marks, and float variables tot, per.
@@ -214,8 +214,19 @@ c.	Else if percentage >= 36: Print “Division = Pass”
 9.	Else: Print “Division = Fail”
 10.	End
 ## PROGRAM:
-
+```
+#include<stdio.h>
+int main(){
+    int a;
+    scanf("%d",&a);
+    if(a%2==0)
+    printf("%d is even number.",a);
+    else 
+    printf("%d is odd number.",a);
+}
+```
 ## OUTPUT:
+![Screenshot 2025-04-29 171034](https://github.com/user-attachments/assets/0e2add21-4b1d-478b-b51e-7326f85c92c9)
 
 ## RESULT:
 The program successfully takes three subject marks, calculates the total and percentage, and correctly determines the division based on predefined grading logic.
